@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="70%w"
+        android:id="@+id/btn_checkBook"
+        android:layout_gravity="center_horizontal"
+        android:text="获取通讯录信息"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <Button
+        app:layout_marginTopPercent="5%h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="70%w"
+        android:id="@+id/btn_call"
+        android:layout_gravity="center_horizontal"
+        android:text="给联系人打电话"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <Button
+        app:layout_marginTopPercent="5%h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="70%w"
+        android:id="@+id/btn_sendMessage"
+        android:layout_gravity="center_horizontal"
+        android:text="给联系人发送短信"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <Button
+        app:layout_marginTopPercent="5%h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="70%w"
+        android:id="@+id/btn_checkMessage"
+        android:layout_gravity="center_horizontal"
+        android:text="查看联系人短信"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

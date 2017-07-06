@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\lxy\\demo\\MyWork\\Pullrefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_main.xml",
+        "source": "E:\\lxy\\demo\\MyWork\\Pullrefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\lxy\\demo\\MyWork\\Pullrefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header2.xml",
+        "source": "E:\\lxy\\demo\\MyWork\\Pullrefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header2.xml"
+    },
+    {
+        "merged": "E:\\lxy\\demo\\MyWork\\Pullrefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_load_footer.xml",
+        "source": "E:\\lxy\\demo\\MyWork\\Pullrefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_load_footer.xml"
+    }
+]

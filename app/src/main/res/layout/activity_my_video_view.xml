@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/rl_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <VideoView
+            android:layout_gravity="center"
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x220"
+             />
+
+        <LinearLayout
+            android:id="@+id/video_controller"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#88000000"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:text="-:--:--"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:progressDrawable="@drawable/loading_apk_progress_bar"
+                android:thumb="@drawable/fore_seekbar"
+                android:thumbOffset="0dp" />
+
+            <TextView
+                android:id="@+id/tv_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:text="-:--:--"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

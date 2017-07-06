@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">安卓系统功能</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_show_phone_num">ShowPhoneNumActivity</string>
+    <string name="title_activity_http">HttpActivity</string>
+    <string name="title_activity_up_date">UpDateActivity</string>
+    <string name="title_activity_my_video_view">MyVideoViewActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_touch_image_view">TouchImageViewActivity</string>
+    <string name="title_activity_guagua_card">GuaguaCardActivity</string>
+    <string name="title_activity_lei_da">LeiDaActivity</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="title_activity_login_activity_http_client">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="facebook_app_id">1266254913438718</string>
+    <string name="umeng_update_content">版本号：6.4.3\n1.修复了反馈中空指针的bug\n2.增加了微信分享小程序的功能\n3.解决了部分已知bug</string>
+    <string name="umeng_home_title">U-Share产品Demo</string>
+    <string name="umeng_home_update">新版更新内容</string>
+    <string name="umeng_share_title">分享</string>
+    <string name="umeng_auth_title">授权</string>
+    <string name="umeng_delauth_title">删除授权</string>
+    <string name="umeng_getinfo_title">获取用户信息</string>
+    <string name="umeng_check_title">自检工具</string>
+    <string name="umeng_menu_title">分享菜单模板</string>
+    <string name="umeng_check_sign">检查签名</string>
+    <string name="umeng_check_sina">检查新浪</string>
+    <string name="umeng_check_wx">检查微信</string>
+    <string name="umeng_check_alipay">检查支付宝</string>
+    <string name="umeng_check_qq">检查qq</string>
+    <string name="umeng_check_fb">检查facebook</string>
+    <string name="umeng_check_vk">vkontakte</string>
+    <string name="umeng_choose_style">选择分享类型</string>
+    <string name="umeng_sharebutton_copy">复制文本</string>
+    <string name="umeng_sharebutton_copyurl">复制连接</string>
+</resources>
